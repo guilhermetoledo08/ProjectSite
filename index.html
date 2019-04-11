@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+	<title>Hard Sushi House | ITADAKIMASU!</title>
+
+    <link rel="icon" href="logo.png" type="image/png"/>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body style="background-image: url('img/bg-i.jpg');">
+
+    <nav class="scroll navbar navbar-expand-lg navbar-light bg-light navbar-toggler">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSanduiche">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="#home" style="padding-left: 5px;" class="nav-link fas fa-utensils scroll"><span style="font-family: Showcard Gothic;"> Hard Sushi House</span></a>
+            </li>
+        </ul>
+
+        <div class="collapse navbar-collapse" id="menuSanduiche">
+
+        	<ul class="navbar-nav mr-auto">
+
+            	<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Cardápio</a>
+              		<div class="dropdown-menu">
+                		<a class="dropdown-item scroll" href="#card1">Melhores refeições</a>
+                		<a class="dropdown-item scroll" href="#card2">Especialidades Quentes</a>
+                		<!-- <div class="dropdown-divider"></div> -->
+                		<a class="dropdown-item scroll" href="#card3">Combinados</a>
+                		<a class="dropdown-item scroll" href="#card4">Bebidas</a>
+                	</div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Unidades</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item scroll" href="#card5">Limeira</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item scroll" href="#card6">Campinas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                	<a class="nav-link scroll" href="#card5">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#modalSubscriptionForm">Promoções</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container" style="margin-top: 50px">
+        <div class="jumbotron">
+            <div class="tp-bgimg defaultimg mb-5" id="home">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/slide-01.png" alt="First slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/slide-02.jpg" alt="Second slide">
+                             <div class="carousel-caption d-none d-md-block">
+                                <h2><span style="font-family: chinrg bold;">Um universo exótico e cheio de sabores!</span></h2>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/slide-03.png" alt="Third slide">
+                        </div>
+                        
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        	
+
+    	<div id="card1" class="row justify-content-sm-center">
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+    				<div class="zoom">
+    					<img class="card-img-top" src="img/cards/card-01.jpg" title="Sushi">
+    				</div>
+    				<div class="card-body">
+    					<h4 class="card-title">Sushi</h4>
+    					<h6 class="card-subtitle mb-2 text-muted"><i>"Uma pequena degustação"</i></h6>
+    					<p class="card-text">O sushi é o mais conhecido dos pratos japoneses no mundo, e o mais popular no Japão também. Nada mais é que um bolinho de arroz com peixe cru, mas pode ter diversas formas de preparo e consequentemente, vários nomes igualmente diferentes.</p>
+    				</div>
+
+    			</div>
+
+    		</div>
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+    				<div class="zoom">
+    					<img class="card-img-top img-responsive" src="img/cards/card-02.jpg" title="Sashimi">
+    				</div>
+    				<div class="card-body">
+    					<h4 class="card-title">Sashimi</h4>
+    					<h6 class="card-subtitle mb-2 text-muted"><i>"Para os mais experientes"</i></h6>
+    					<p class="card-text">Fatias de peixe cru degustadas com shoyu (molho de soja) e wasabi (raiz forte). O peixe sempre estará o mais fresco possível.</p>
+    				</div>
+    				
+    			</div>
+
+    		</div>
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+    				<div class="zoom">
+    					<img class="card-img-top img-responsive" src="img/cards/card-03.jpg" title="Huramaki">
+    				</div>
+    				<div class="card-body">
+    					<h4 class="card-title">Huramaki</h4>
+    					<h6 class="card-subtitle mb-2 text-muted"><i>"Só o bolso impede de degustá-lo"</i></h6>
+    					<p class="card-text">Existem algumas opções de Uramaki, as mais conhecidas são Uramaki de Salmão, que é feito de: arroz com gergelim, nori, salmão, cream cheese e cebolinha. E também temos o califónia, que leva: arroz, nori, manga, pepino e kani-kama.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+        <div id="card2" class="row justify-content-sm-center">
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top" src="img/cards/card-04.jpg" title="Yakissoba">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Yakisoba</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Possuimos uma variedade de Yakissobas deliciosos"</i></h6>
+                        <p class="card-text">Yakissoba Simples (Macarrão, carne bovina, frango e legumes);<br> Yakissoba Especial (Macarrão, carne bovina, camarão, frutos do mar e legumes);<br> Yakissoba Vegetariano (Macarrão, shimeji e legumes).</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-05.jpg" title="Tempurá">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Tempurá</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Nosso estabelecimento possui um Tempurá de Camarão Incrivel"</i></h6>
+                        <p class="card-text">Tempurá de Camarão (Camarão, legumes e misto).</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-06.jpg" title="Teppanyaki">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Teppanyaki</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Um grelhado incrível, que acompanha legumes, arroz e missoshiru"</i></h6>
+                        <p class="card-text">Teppanyaki (Anchova, salmão, lula, frutos do mar, camarão, filet de frango e filet mignon).</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="card3" class="row justify-content-sm-center">
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top" src="img/cards/card-07.jpg" title="Barco de Salmão">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Barco de Salmão</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Um combinado de salmão delicioso e bom para comer com os amigos"</i></h6>
+                        <p class="card-text">Combinado de Salmão 1 pessoa(18 unid.) (15 Sashimis, 8 sushis e 16 salmonakis);<br>
+                            Combinado de Salmão 2 pessoas(39 unid.) (15 Sashimis, 8 sushis e 16 salmonakis);<br>
+                            Combinado de Salmão 3 pessoas(45 unid.) (16 Sashimis, 13 sushis e 16 salmonakis).<br></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-08.jpg" title="Barco Vegano">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Barco Vegano</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Um combinado para aqueles que amam comidas naturais"</i></h6>
+                        <p class="card-text">Enroladinhos de pepino com legumes e frutas, Sushi Kunkka (jyo de shimeji), 
+                        Sushi “Tropical” (sushi de frutas com morango, manga e abacaxi) acompanhado de chips de batata doce.</p>
+                    </div>            
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-09.jpg" title="Barco Tradicional">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Barco Tradicional</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Um combinado para aqueles que amam sushi"</i></h6>
+                        <p class="card-text">Combinado Tradicional 1 pessoa(18 unid.) (6 Sashimis, 4 sushis, 2 tekkas, 2 kappas e 4 califórnias);<br>
+                            Combinado Tradicional 2 pessoas(35 unid.) (15 Sashimis, 8 sushis, 4 tekkas, 4 kappas e 4 califórnias).<br></p>
+                    </div>            
+                </div>
+            </div>
+        </div>
+
+
+        <div id="card4" class="row justify-content-sm-center">
+
+    		<div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top" src="img/cards/card-10.jpg" title="Refrigerantes e Sucos">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Refrigerantes e Sucos</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Nós possuimos uma variedade de bebidas exoticas"</i></h6>
+                        <p class="card-text">Refrigerantes.<br>Água.<br>Suco (Morango, Pêssego, Uva, Maçã).<br>
+                                            Limonada Suiça.<br>Chá (Ice Tea/Fell Good).<br>Ban Chá.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-11.jpg" title="Caipirinhas">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Caipirinhas</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Capirinhas exoticas e deliciosas"</i></h6>
+                        <p class="card-text">Caipirinha de Pinga;<br>Caipirinha de Vodka;<br>Caipirinha de Sakê Kiwi/Morango;<br>Caipirinha de Vodka Dupla;<br>
+                            Caipirinha de Sakê Dupla.<br>
+                        </p>
+                    </div>            
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+    			<div class="card mb-5">
+
+                    <div class="zoom">
+                        <img class="card-img-top img-responsive" src="img/cards/card-12.jpg" title="Sakê">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Sakê</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"><i>"Um Sakê que te levará ao japão"</i></h6>
+                        <p class="card-text">Sakê Nacional (Dose, Meia Dose, Azuma Kirin Dourado(Garrafa 740ml);<br>
+                                            Sakê de Morango (Dose, Meia Dose).</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Inscreva-se para receber promoções, descontos e mais!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <form>
+	                <div class="modal-body mx-3">
+	                    <div class="md-form mb-5">
+	                        <i class="fa fa-user prefix grey-text"></i>
+	                        <input type="text" id="Nome" class="form-control validate" required placeholder="Seu nome">
+	                    </div>
+
+	                    <div class="md-form mb-4">
+	                        <i class="fa fa-envelope prefix grey-text"></i>
+	                        <input type="email" id="Email" class="form-control validate" required placeholder="Seu email">
+	                    </div>
+
+	                </div>
+
+	                <div class="modal-footer d-flex justify-content-center">
+	                    <!-- <span class="fa fa-paper-plane-o ml-1"></span> -->
+	                    <button type="submit" class="tnb btn-danger">Inscrever-se</button>
+	                </div>
+	            </form>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Modal -->
+
+
+<footer id="myFooter">
+        <div class="container">
+            <div id="accordion" class="mb-5">
+            <div id="card5">
+                <div class="card-header" id="cabecalhoItem1">
+                    <h5 class="mb-0">
+                        <button class="btn nav-link collapsed" data-toggle="collapse" data-target="#contudoItem1" aria-expanded="false">
+                        Limeira
+                    </button>
+                </h5>
+            </div>
+
+            <div id="contudoItem1" class="collapse show" data-parent="#accordion" style="">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            Email: hard.housesushi@hotmail.com<br>
+                            Telefone: 3453-4444
+
+                        </div>
+                        <div class="col-sm-7 mb-5">
+                            <div class="card">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.25514787836!2d-47.412028085075114!3d-22.569558585184282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c880f602446769%3A0xf5db7d129d2fd55c!2sHard+Sushi+House!5e0!3m2!1spt-BR!2sbr!4v1537726118408" width="" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card6">
+                <div class="card-header" id="cabecalhoItem2">
+                    <h5 class="mb-0">
+                        <button class="btn nav-link collapsed" data-toggle="collapse" data-target="#contudoItem2" aria-expanded="false">
+                        Campinas
+                    </button>
+                </h5>
+            </div>
+
+            <div id="contudoItem2" class="collapse" data-parent="#accordion" style="">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            Email: take.housesushi@hotmail.com<br>
+                            Telefone: 3458-2457
+                        </div>
+
+                        <div class="col-sm-7 mb-5">
+                            <div class="card">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471201.34795827774!2d-47.58038326281034!3d-22.681343346287324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c5ffb50a82a3%3A0xee550ef9d5eb1e57!2sTak%C3%AA+Sushi+House!5e0!3m2!1spt-BR!2sbr!4v1537726362669" width="" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <div class="social-networks">
+                <a href="https://twitter.com/?lang=pt-br" class="twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        <div class="footer-copyright">
+            <p>© 2018 Copyright - Carlos & Guilherme</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- <script type="text/javascript" src="js/Smooth-Scrolling.js"></script> -->
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <script>
+    $('nav a').click(function(e){
+    e.preventDefault();
+    var id = $(this).attr('href'),
+            menuHeight = $('nav').innerHeight(),
+            targetOffset = $(id).offset().top;
+    $('html, body').animate({
+        scrollTop: targetOffset - menuHeight - 48
+    }, 500);
+    });
+
+    // Animação ao Scroll
+    (function(){
+    var $target = $('.anime'),
+            animationClass = 'anime-start',
+            offset = $(window).height() * 3/4;
+
+    function animeScroll() {
+        var documentTop = $(document).scrollTop();
+
+        $target.each(function(){
+            var itemTop = $(this).offset().top;
+            if (documentTop > itemTop - offset) {
+                $(this).addClass(animationClass);
+            } else {
+                $(this).removeClass(animationClass);
+            }
+        });
+    }
+
+    animeScroll();
+
+    $(document).scroll(debounce(function(){
+        animeScroll();
+    }, 200));
+    });
+    </script>
+
+    <script>
+    $('.btn').click(function() {
+        $('.modal')
+            .prop('class', 'modal fade')
+            .addClass( $(this).data('direction') );
+        $('.modal').modal('show');
+    }); 
+    </script>
+    <!-- Fim dos Scripts -->
+
+</body>
+</html>
